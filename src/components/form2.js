@@ -28,7 +28,7 @@ class Form2 extends Component {
     }
 
     createCheckbox = label => (
-        <div className="checkboxes"><Checkbox
+        <div className="checkboxes" key={label + "f"}><Checkbox
             label={label}
             onChange={this.toggleCheckbox}
             key={label}

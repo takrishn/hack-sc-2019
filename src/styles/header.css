@@ -1,9 +1,10 @@
 .header-bar {
     background-color: #5B92E5;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 0;
+    z-index:10
 }
 .title {
     color: white;
