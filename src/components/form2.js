@@ -6,7 +6,7 @@ import HeaderComponent from './header';
 import Button from 'react-bootstrap/Button';
 
 
-class Form extends Component {
+class Form2 extends Component {
     componentWillMount = () => {
         this.selectedCheckboxes = new Set();
     }
@@ -41,14 +41,15 @@ class Form extends Component {
 
     constructor(props) {
         super(props);
-  
         this.state = {
-            data: ['Multiple Sclerosis', 'Leukemia', 'Chronic Depression', 'Heart Disease'],
-            checked: [false, false, false, false],
-            desc: "Looks like you're new to this app! Get started by filling out some basic medical information below.",
-            subtitle: 'Basic Diagnoses',
-            backButton: false
+            data: ['Cognitive Difficulties', 'Vision Problems', 'Fatigue', 'Heat Sensitivity', 
+                'Bowel and Bladder Problems', 'Sexual Issues', 'Pain', 'Motor Problems'],
+            checked: [false, false, false, false, false, false, false, false],
+            desc: 'Please specify the symptoms you are experiencing so we can create a more individualized match for you.',
+            subtitle: 'Multiple Sclerosis Symptoms',
+            backButton: true
         }
+        
     }
     
     render() {
@@ -79,4 +80,4 @@ class Form extends Component {
     }
 }
 
-export default Form;
+export default Form2;

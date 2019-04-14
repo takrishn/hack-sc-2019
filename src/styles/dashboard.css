@@ -1,0 +1,39 @@
+.Page {
+    text-align: center;
+    background-color: #E7E7E7;
+  
+  }
+  
+  .Page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  div.dash-container {
+    width: 70%;
+    position: absolute;
+    top: 15%;
+    /* height: 70%; */
+    background-color: white;
+    border-radius: 4px;
+    padding: 23px;
+    border: 1px solid #bfbfbf;
+  }
+  
+  h2.dash-header {
+    color: #5B92E5;
+    font-size: 130%;
+    border-bottom: 4px solid #5B92E5;
+    margin: 10px 20px 5px 20px;
+  }
+
+
+
+  
+  

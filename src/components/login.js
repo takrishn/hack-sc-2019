@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './../logo.svg';
 import '../styles/login.css';
-import {HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import {HashRouter as Router, Link } from 'react-router-dom';
 
 class Login extends Component {
   render() {
