@@ -53,8 +53,8 @@ class Form2 extends Component {
     }
     
     render() {
-        const backIncluded = <div className="button-div"><Button className="back-button" ><Link to="/form" className="no-text-dec">Back</Link></Button><div className="gap"></div><Button className="back-button"><Link to="/dashboard" className="no-text-dec">Next</Link></Button></div>;
-        const backExcluded = <div className="button-div"><Button className="next-button" ><Link to="/form2" className="no-text-dec">Next</Link></Button></div>
+        const backIncluded = <div className="button-div"><Link to="/form" className="no-text-dec"><Button className="back-button" >Back</Button></Link><div className="gap"></div><Button className="back-button"><Link to="/dashboard" className="no-text-dec">Next</Link></Button></div>;
+        const backExcluded = <div className="button-div"><Link to="/form2" className="no-text-dec"><Button className="next-button" >Next</Button></Link></div>
         
         return (
             <Router>
