@@ -1,0 +1,11 @@
+Chess, Microsoft Engineering, Coffee, University of Southern California, Computers
+McDonalds, Arby's, Burger King, Costco, Taco Bell
+Xbox, Bioshock infinite, Call of duty, Playstation, Nintendo Switch
+Hockey, Football, Basketball, Soccer, LA Galaxy
+Trumpets, Ed Sheeran, Snoop Dogg, Katy Perry, Ballet
+Incredibles 3, How to train your dragon, finding nemo, spider man, Lion King
+Puerto Ventura, Santa Barbara, Cancun, Honolulo, Mallorca
+London, Los Angeles, New York, Mexico City, Barcelona
+NASA, Pluto, Mars, milky way, griffith observatory
+C++ , Python, Java, JavaScript, HTML
+New Orleans Saints, Quiksilver, Under Armour, Facebook, Gordon Ramsey
