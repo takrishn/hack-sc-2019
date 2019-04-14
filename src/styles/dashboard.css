@@ -1,0 +1,112 @@
+.Page {
+    text-align: center;
+    background-color: #E7E7E7;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .Page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  div.dash-container {
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    /* height: 70%; */
+    background-color: white;
+    border-radius: 4px;
+    padding: 23px;
+    border: 1px solid #bfbfbf;
+    margin-bottom: 100px;
+  }
+  
+  h2.dash-header {
+    color: #5B92E5;
+    font-size: 130%;
+    border-bottom: 4px solid #5B92E5;
+    margin: 10px 20px 5px 20px;
+  }
+
+  .Container {
+      background-color: #E7E7E7;
+      border-radius: 4px;
+      margin: 20px 20px 0 20px;
+      display: grid;
+      grid-template-columns: 100px 20% auto auto;
+      grid-gap: 10px;
+      padding: 15px 0 15px 20px;
+  }
+
+  img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .name {
+      font-size: 85%;
+      color: #5B92E5;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 10px;
+      margin-top: 13px;
+  }
+  .n {
+      font-size: 70%;
+      color: #a0a0a0;
+      text-align: left;
+  }
+
+  .find-btn {
+      background-color: #5B92E5;
+      color: white;
+      border-radius: 4px;
+      font-size: 60%;
+      text-decoration: none;
+  }
+  .rel {
+      position: relative;
+  }
+  .find-btn-div {
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+  }
+
+  .interests {
+      font-size: 75%;
+      text-align: center;
+      margin-bottom: 5px;
+      margin-top: 0;
+  }
+  .int {
+      font-size: 70%;
+      color: #a0a0a0;
+      text-align: left;
+  }
+  .logging {
+      font-size: 75%;
+      text-align: right;
+      margin-bottom: 10px;
+      margin-right: 15px;
+  }
+.log {
+    font-size: 70%;
+    color: #a0a0a0;
+}
+.second-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+
+  
+  

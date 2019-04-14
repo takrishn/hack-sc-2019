@@ -1,0 +1,42 @@
+.header-bar {
+    background-color: #5B92E5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    z-index:10
+}
+.title {
+    color: white;
+    align-self: 'center';
+    display: inline-block;
+    font-size: 110%;
+}
+.logout-button {
+    right: 25px;
+    top: 22px;
+    position: absolute;
+    background-color: white;
+    color: #5B92E5;
+    display: inline-block;
+    border-radius: 4px;
+}
+.logout-button:hover {
+    border-color: #5B92E5;
+    cursor: pointer;
+    color: white;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    color: #5B92E5;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.btn#logout:hover {
+    border-color: #5B92E5;
+    cursor: pointer;
+    color: white;
+}

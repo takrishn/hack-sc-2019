@@ -2,18 +2,21 @@ import React, { Component } from 'react';
 import {HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Form from './form';
+import Form2 from './form2';
 import Login from './login';
+import Dashboard from './dashboard';
 
 class App extends Component {
-  constructor(props) {
-    super(props);    
-  }
+  
   render() {
     return (
       <Router>
         <Switch>
           <Route exact path='/' component={Login}/>
-          <Route exact path='/form' component={Form}/>
+          <Route path='/form' component={Form}/>
+          <Route path='/form2' component={Form2}/>
+          <Route path='/dashboard' component={Dashboard}/>
+          {/* <Route exact path='/form' component={Form}/> */}
         </Switch>
       </Router>
       // <div className="App">
